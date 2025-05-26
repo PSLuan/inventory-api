@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+movement_stock,com.br.movement_stock,MovementStockApplication,5,3,0,0,2,1,1,1,1,1
+movement_stock,com.br.movement_stock.domain.enums,ProductType,8,53,2,2,1,8,2,3,0,3
+movement_stock,com.br.movement_stock.domain.enums,MovementType,0,25,0,0,0,4,0,2,0,2
+movement_stock,com.br.movement_stock.config,SecurityConfig,0,22,0,0,0,5,0,2,0,2
+movement_stock,com.br.movement_stock.application.service.impl,MovementStockServiceImpl,0,164,0,6,0,42,0,10,0,7
+movement_stock,com.br.movement_stock.application.service.impl,ProductServiceImpl,5,216,0,6,0,55,1,15,1,12
+movement_stock,com.br.movement_stock.application.controller,MovementStockController,13,0,0,0,3,0,2,0,2,0
+movement_stock,com.br.movement_stock.application.controller,ProductController,31,0,0,0,6,0,5,0,5,0

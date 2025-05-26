@@ -80,7 +80,7 @@ public class ProductServiceImpl implements ProductService {
     public ProductResponse update(Long id, ProductRequest request) {
         Product product = findEntityById(id);
         product.setDescription(request.getDescription());
-        product.setProductType(ProductType.valueOf(request.getProductType()));
+        product.setProductType(ProductType.fromType(request.getProductType()));
         product.setValueSupplier(request.getValueSupplier());
         product.setQuantityStock(request.getQuantityStock());
         return toResponse(productRepository.save(product));

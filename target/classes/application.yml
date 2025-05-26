@@ -2,7 +2,7 @@ spring:
   application:
     name: movement_stock
   datasource:
-    url: jdbc:postgresql://postgres:5432/stock_db
+    url: jdbc:postgresql://localhost:5432/stock_db
     username: stock_user
     password: stock_pass
   jpa:
